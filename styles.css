@@ -1,0 +1,63 @@
+body {
+    width: 25em;
+    margin: auto; 
+   
+}
+
+button {
+    padding: 1em; 
+    border: solid black 1px; 
+    background-color: lightgray;
+    font-size: 3vh;
+}
+
+.subtract-button {
+    background-color: #ffb347;
+}
+.divide-button {
+    background-color:  #ffb347;
+}
+.multiply-button {
+    background-color:  #ffb347;
+}
+.add-button{
+    background-color:  #ffb347;
+    
+}
+.clear-button {
+    background-color:lightblue;
+}
+.backspace-button {
+    background-color:lightblue;
+}
+#display {
+    font-size: 6vh;
+    color: black;
+    border: solid black 1px;
+    font-family: sans-serif;
+    padding-top: 0.5em;
+    padding-bottom: 0.5rem;
+    padding-left:0.2em;
+    background-color:whitesmoke;
+    width: 8.6em;
+    margin-bottom: 0;
+}
+
+#display {
+    margin-top: 3em;
+    width: 100%;
+}
+
+#container {
+    width: 100%;
+   
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: 100px 100px 100px 100px;
+}
+
+
+.equals-button {
+    background-color: lightpink;
+    grid-column: 2/5;
+}
